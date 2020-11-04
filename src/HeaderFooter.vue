@@ -24,7 +24,7 @@
             <div class="footer-divider">•</div>
             <div><a href="https://github.com/JustinApplegate" target="_blank">GitHub ↗</a></div>
         </div>
-        <div>Github</div>
+        <div>(<a href="https://github.com/JustinApplegate/mywebsiteVue" target="_blank">My GitHub Repo ↗</a>)</div>
     </div>
 
   </div>

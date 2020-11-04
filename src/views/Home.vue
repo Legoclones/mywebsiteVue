@@ -4,7 +4,7 @@
       <div class="page-title-div"><span class="page-title">About Me</span></div>
 
       <img class="profile-photo" src="@/assets/ProfilePhoto.jpg">
-      <p>I am a full-time sophomore pursuing a Bachelor’s in Cybersecurity and a minor in Computer Science
+      <p>I am a full-time {{ grade }} pursuing a Bachelor’s in Cybersecurity and a minor in Computer Science
         from Brigham Young University in Provo, Utah. I'm originally from Chandler, Arizona, where I've 
         lived for almost all of my life.</p>
           
@@ -24,7 +24,7 @@
         <p><em>Minor in Computer Science</em></p>
           
         <p class="bullet">• June 2020 - Present</p>
-        <p class="bullet">• GPA - 4.00</p>
+        <p class="bullet">• GPA - {{ GPA }}</p>
         <p class="bullet">• Academic, Full-Tuition Scholarship</p>
       </div>
 
@@ -42,15 +42,16 @@
 </template>
 
 <script>
-/* @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  computed: {
+    GPA(){
+      return this.$root.$data.education.GPA;
+    },
+    grade() {
+      return this.$root.$data.education.grade;
+    }
   }
-}*/
+}
 </script>
 
 <style scoped>
