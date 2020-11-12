@@ -16,14 +16,19 @@ let data = [
     },
     {
         name: 'Personal website',
-        language: 'HTML, CSS',
-        link: 'https://github.com/JustinApplegate/mywebsite'
+        language: 'HTML, CSS, JavaScript, Vue',
+        link: 'https://github.com/JustinApplegate/mywebsiteVue'
     },
     {
         name: 'Mock photography website',
         language: 'HTML, CSS',
         link: 'https://github.com/JustinApplegate/mock-photography-website'
     },
+    {
+        name: 'Subdomain creator/deleter',
+        language: 'Shell',
+        link: 'https://github.com/JustinApplegate/subdomain'
+    }
 ];
 
 export default data;
