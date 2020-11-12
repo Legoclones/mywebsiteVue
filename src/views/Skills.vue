@@ -40,7 +40,7 @@
 
             <div class="ability-project">
                 <p v-for="project in projects" :key="project">
-                    • <a :href='project.link'>{{project.name}} ({{project.language}}) ↗</a>
+                    • <a :href='project.link' target="_blank">{{project.name}} ({{project.language}}) ↗</a>
                 </p>
             </div>
 
