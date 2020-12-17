@@ -21,7 +21,7 @@ let data = [
         totalTeams: '12',
         percent: '25%',
         focuses: ['steganography', 'cryptography', 'web exploitation', 'networking'],
-        link: 'Private'
+        link: 'www.byu.edu'
     },
 ];
 
