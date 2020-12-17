@@ -14,7 +14,15 @@ let data = [
         percent: '16%',
         focuses: ['hardening organizational networks and devices', 'group policy settings', 'malware removal', 'basic forensics'],
         link: 'http://www.hivestorm.org/'
-    }
+    },
+    {
+        name: 'BYU CSA\'s CTF 2020',
+        place: '3rd',
+        totalTeams: '12',
+        percent: '25%',
+        focuses: ['steganography', 'cryptography', 'web exploitation', 'networking'],
+        link: 'Private'
+    },
 ];
 
 export default data;
