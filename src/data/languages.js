@@ -3,9 +3,9 @@ let data = [
     {name: 'CSS/HTML', stars: 4},
     {name: 'JavaScript', stars: 3},
     {name: 'SQL', stars: 3},
+    {name: 'Python', stars: 2},
     {name: 'Coldfusion', stars: 2},
     {name: 'Shell', stars: 2},
-    {name: 'Python', stars: 1},
     {name: 'Java', stars: 1},
     {name: 'PHP', stars: 1},
 ];

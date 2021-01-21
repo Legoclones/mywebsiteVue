@@ -27,6 +27,15 @@
         </div>
         
         <div class="content-box">
+            <div class="page-title-div"><span class="page-title">Certifications</span></div>
+
+            <div class="ability-project">
+                <p v-for="certification in certifications" :key="certification">• {{certification}}</p>
+            </div>
+
+        </div>
+
+        <div class="content-box">
             <div class="page-title-div"><span class="page-title">Other Skills</span></div>
 
             <div class="ability-project">
@@ -62,6 +71,9 @@ export default {
     },
     projects(){
       return this.$root.$data.projects;
+    },
+    certifications(){
+      return this.$root.$data.certifications;
     }
   }
 }

@@ -7,7 +7,8 @@
                 <h2>{{wexp.orgComp}} <em>({{wexp.dates}})</em></h2>
                 <p class="title">{{wexp.title}} ({{wexp.location}})</p>
                 
-                <p v-for="detail in wexp.details" :key="detail">• {{detail}}</p>
+                <p>{{wexp.details}}</p>
+                <p v-for="accomplishment in wexp.accomplishments" :key="accomplishment">• {{accomplishment}}</p>
             </div>
 
         </div>
@@ -30,7 +31,7 @@
             <div class="experience" v-for="competition in competitions" :key="competition.name">
                 <h2 class="bullet-space">{{competition.name}}</h2>
 
-                <p>• Placed {{competition.place}} out of {{competition.totalTeams}} teams (top {{competition.percent}})</p>
+                <p>• Placed {{competition.place}} out of {{competition.totalTeams}} {{competition.type}} (top {{competition.percent}})</p>
                 <p>• Focuses - <template v-for="focus in competition.focuses">{{focus}}, </template>etc.</p>
                 <p>• <a :href="competition.link" target="_blank">Link to their website ↗</a></p><br>
             </div>

@@ -11,6 +11,7 @@ import softwareData from './data/software.js'
 import otherSkillsData from './data/otherSkills.js'
 import projectsData from './data/projects.js'
 import thoughtsData from './data/thoughts.js'
+import certificationsData from './data/certifications.js'
 
 Vue.config.productionTip = false
 
@@ -24,7 +25,8 @@ let data = {
   software: softwareData,
   otherSkills: otherSkillsData,
   projects: projectsData,
-  thoughts: thoughtsData
+  thoughts: thoughtsData,
+  certifications: certificationsData
 }
 
 new Vue({

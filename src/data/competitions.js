@@ -3,6 +3,7 @@ let data = [
         name: 'MetaCTF CyberGames 2020',
         place: '171st',
         totalTeams: '1586',
+        type: 'teams',
         percent: '11%',
         focuses: ['forensics', 'binary exploitation', 'web exploitation', 'cryptography', 'reconnaissance', 'reverse engineering'],
         link: 'https://metactf.com/'
@@ -11,6 +12,7 @@ let data = [
         name: 'Hivestorm 2020',
         place: '17th',
         totalTeams: '108',
+        type: 'teams',
         percent: '16%',
         focuses: ['hardening organizational networks and devices', 'group policy settings', 'malware removal', 'basic forensics'],
         link: 'http://www.hivestorm.org/'
@@ -19,6 +21,7 @@ let data = [
         name: 'BYU CSA\'s CTF 2020',
         place: '3rd',
         totalTeams: '12',
+        type: 'individuals',
         percent: '25%',
         focuses: ['steganography', 'cryptography', 'web exploitation', 'networking'],
         link: 'https://www.byu.edu/'

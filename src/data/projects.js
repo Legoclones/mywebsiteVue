@@ -1,5 +1,10 @@
 let data = [
     {
+        name: 'Password cracking setup',
+        language: 'John the Ripper',
+        link: 'https://github.com/JustinApplegate/password-cracking'
+    },
+    {
         name: 'Port scanner',
         language: 'C++',
         link: 'https://github.com/JustinApplegate/port-scanner-cpp'
