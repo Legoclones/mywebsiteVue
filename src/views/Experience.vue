@@ -7,7 +7,7 @@
                 <h2>{{wexp.orgComp}} <em>({{wexp.dates}})</em></h2>
                 <p class="title">{{wexp.title}} ({{wexp.location}})</p>
                 
-                <p>{{wexp.details}}</p>
+                <p class="bullet-space">{{wexp.details}}</p>
                 <p v-for="accomplishment in wexp.accomplishments" :key="accomplishment">• {{accomplishment}}</p>
             </div>
 
@@ -88,10 +88,6 @@ p, h2 {
 }
 em {
     font-weight:normal;
-}
-.resume {
-    margin-bottom:2em;
-    text-align:center;
 }
 .bullet-space {
     margin-bottom:0.5em;

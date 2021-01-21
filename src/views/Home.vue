@@ -11,7 +11,7 @@
       <p>I'm the 4<sup>th</sup> of 6 kids, all of whom have gone to BYU in Utah or Idaho. I love computers, 
         soccer, movies, and speaking Spanish.</p>
           
-      <p>If you'd like to contact me or see me on social media, you'll find my info below.</p>
+      <p>If you'd like to contact me, see me on social media, or view my resume, you'll find my info below.</p>
     </div>
 
     <div class="content-box">
@@ -86,6 +86,10 @@ em {
 }
 p {
     margin-bottom:1em;
+}
+.resume {
+    margin-bottom:2em;
+    text-align:center;
 }
 
 @media only screen and (max-width: 615px) {

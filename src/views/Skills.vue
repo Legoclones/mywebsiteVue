@@ -31,7 +31,7 @@
 
             <div class="ability-project">
                 <p v-for="certification in certifications" :key="certification.title">
-                    • <a :href='certification.link' target="_blank">{{certification.title}}</a>
+                    • <a :href='certification.link' target="_blank">{{certification.title}} ↗</a>
                 </p>
             </div>
 

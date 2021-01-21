@@ -4,7 +4,7 @@ let data = [
         dates: 'Dec 2020 - Present',
         title: 'Computing Specialist',
         location: 'Provo, UT',
-        details: 'I help the faculty with various cybersecurity-related research projects. Currently, I\'m working on updating BYU\'s Immersive Cybersecurity Experience (ICE), a Star Trek-themed escape room that teaches participants cybersecurity skills.',
+        details: 'I help the faculty with various cybersecurity-related projects. Currently, I\'m working on updating BYU\'s Immersive Cybersecurity Experience (ICE), a Star Trek-themed escape room that teaches participants cybersecurity skills.',
         accomplishments: [
             'Combined all the required files for the ICE into one GitHub repository and linked all the machines to it',
             'Wrote documentation on the layout, setup, and administration of the ICE',
