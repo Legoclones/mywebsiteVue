@@ -30,7 +30,9 @@
             <div class="page-title-div"><span class="page-title">Certifications</span></div>
 
             <div class="ability-project">
-                <p v-for="certification in certifications" :key="certification">• {{certification}}</p>
+                <p v-for="certification in certifications" :key="certification.title">
+                    • <a :href='certification.link' target="_blank">{{certification.title}}</a>
+                </p>
             </div>
 
         </div>

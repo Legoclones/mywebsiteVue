@@ -38,6 +38,16 @@
         <p class="bullet">• ACT - 34</p>
       </div>
     </div>
+
+    <div class="content-box">
+        <div class="page-title-div"><span class="page-title">Resume</span></div>
+
+        <div class="resume">
+            <p><a href="/JustinApplegateResume.pdf" target="_blank">View my resume here ↗</a></p>
+        </div>
+
+    </div>
+    
   </div>
 </template>
 
