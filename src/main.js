@@ -6,8 +6,7 @@ import workExpData from './data/workExp.js'
 import volExpData from './data/volExp.js'
 import competitionsData from './data/competitions.js'
 import classesData from './data/classes.js'
-import languagesData from './data/languages.js'
-import softwareData from './data/software.js'
+import technicalSkillsData from './data/technicalSkills.js'
 import otherSkillsData from './data/otherSkills.js'
 import projectsData from './data/projects.js'
 import thoughtsData from './data/thoughts.js'
@@ -21,8 +20,7 @@ let data = {
   volExp: volExpData,
   competitions: competitionsData,
   classes: classesData,
-  languages: languagesData,
-  software: softwareData,
+  technicalSkills: technicalSkillsData,
   otherSkills: otherSkillsData,
   projects: projectsData,
   thoughts: thoughtsData,

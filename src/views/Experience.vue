@@ -7,7 +7,6 @@
                 <h2>{{wexp.orgComp}} <em>({{wexp.dates}})</em></h2>
                 <p class="title">{{wexp.title}} ({{wexp.location}})</p>
                 
-                <p class="bullet-space">{{wexp.details}}</p>
                 <p v-for="accomplishment in wexp.accomplishments" :key="accomplishment">• {{accomplishment}}</p>
             </div>
 
@@ -31,7 +30,7 @@
             <div class="experience" v-for="competition in competitions" :key="competition.name">
                 <h2 class="bullet-space">{{competition.name}}</h2>
 
-                <p>• Placed {{competition.place}} out of {{competition.totalTeams}} {{competition.type}} (top {{competition.percent}})</p>
+                <p>• Placed {{competition.place}}</p>
                 <p>• Focuses - <template v-for="focus in competition.focuses">{{focus}}, </template>etc.</p>
                 <p>• <a :href="competition.link" target="_blank">Link to their website ↗</a></p><br>
             </div>
@@ -44,11 +43,11 @@
             <div class="experience">
                 <h2 class="bullet-space">Completed classes</h2>
                 
-                <p v-for="sclass in classes.completedClasses" :key="sclass.short">• {{sclass.short}} - {{sclass.long}}</p><br>
+                <p v-for="sclass in classes.completedClasses" :key="sclass">• {{sclass}}</p><br>
 
                 <h2 class="bullet-space">Current classes</h2>
                 
-                <p v-for="sclass2 in classes.currentClasses" :key="sclass2.short">• {{sclass2.short}} - {{sclass2.long}}</p>
+                <p v-for="sclass2 in classes.currentClasses" :key="sclass2">• {{sclass2}}</p>
             </div>
 
         </div>

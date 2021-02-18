@@ -4,10 +4,10 @@ let data = [
         dates: 'Dec 2020 - Present',
         title: 'Computing Specialist',
         location: 'Provo, UT',
-        details: 'I help the faculty with various cybersecurity-related projects. Currently, I\'m working on updating BYU\'s Immersive Cybersecurity Experience (ICE), a Star Trek-themed escape room that teaches participants cybersecurity skills.',
         accomplishments: [
-            'Combined all the required files for the ICE into one GitHub repository and linked all the machines to it',
-            'Wrote documentation on the layout, setup, and administration of the ICE',
+            'Designed and imaged 45+ devices of 6 different operating systems',
+            'Redesigned the network for a cybersecurity escape room with the 45+ devices',
+            'Wrote a 22-page document on the layout, setup, and administration of the escape room',
         ]
     },
     {
@@ -15,12 +15,22 @@ let data = [
         dates: 'Sept 2020 - Dec 2020',
         title: 'Quality Assurance Web Tester',
         location: 'Provo, UT',
-        details: 'I used manual and automated testing to identify issues in current and new web features. I then generated tickets using clear language in Jira to help software developers understand the bugs.',
         accomplishments: [
-            'Found and reported an average of 20 bugs/month',
-            'Tested and approved an average of 17 code updates/month',
+            'Found and reported an average of 20 bugs in web features per month as tickets in Jira',
+            'Tested and approved an average of 17 code updates per month',
         ]
-    }
+    },
+    {
+        orgComp: 'Walmart',
+        dates: 'Jun 2018 - Aug 2018',
+        title: 'Cap II Team Stocker',
+        location: 'Chandler, AZ',
+        accomplishments: [
+            'Replenished shelves with new merchandise without supervision',
+            'Unloaded and organized incoming merchandise quickly and efficiently',
+            'Provided assistance to customers needing help',
+        ]
+    },
 ];
 
 export default data;

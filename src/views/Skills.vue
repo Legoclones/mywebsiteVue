@@ -1,25 +1,12 @@
 <template>
     <div class="body-content">
         <div class="content-box">
-            <div class="page-title-div"><span class="page-title">Coding Languages</span></div>
+            <div class="page-title-div"><span class="page-title">Technical Skills</span></div>
 
             <div class="ability-project-center">
                 <table>
-                    <tr v-for="language in languages" :key="language.name">
-                        <td><p>{{language.name}}</p></td><td class="stars"><img :src="'/stars/' + language.stars + 'Star.png'" width="100px"></td>
-                    </tr>
-                </table>
-            </div>
-
-        </div>
-        
-        <div class="content-box">
-            <div class="page-title-div"><span class="page-title">Software</span></div>
-
-            <div class="ability-project-center">
-                <table>
-                    <tr v-for="software in softwares" :key="software.name">
-                        <td><p>{{software.name}}</p></td><td class="stars"><img :src="'/stars/' + software.stars + 'Star.png'" width="100px"></td>
+                    <tr v-for="tskill in technicalSkills" :key="tskill.name">
+                        <td><p>{{tskill.name}}</p></td><td class="stars"><img :src="'/stars/' + tskill.stars + 'Star.png'" width="100px"></td>
                     </tr>
                 </table>
             </div>
@@ -62,11 +49,8 @@
 <script>
 export default {
   computed: {
-    languages(){
-      return this.$root.$data.languages;
-    },
-    softwares(){
-      return this.$root.$data.software;
+    technicalSkills(){
+      return this.$root.$data.technicalSkills;
     },
     otherSkills(){
       return this.$root.$data.otherSkills;

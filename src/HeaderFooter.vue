@@ -20,7 +20,7 @@
             <div class="footer-divider">•</div>
             <div><a href="https://www.facebook.com/justink.applegate/" target="_blank">Facebook ↗</a></div>
             <div class="footer-divider">•</div>
-            <div><a href="https://www.linkedin.com/in/justin-a-b23676139/" target="_blank">LinkedIn ↗</a></div>
+            <div><a href="https://www.linkedin.com/in/justin-applegate-b23676139/" target="_blank">LinkedIn ↗</a></div>
             <div class="footer-divider">•</div>
             <div><a href="https://github.com/JustinApplegate" target="_blank">GitHub ↗</a></div>
         </div>
