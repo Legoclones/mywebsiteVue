@@ -2,7 +2,7 @@ let data = [
     {
         orgComp: 'BYU Cybersecurity Research Lab',
         dates: 'Dec 2020 - Present',
-        title: 'Computing Specialist',
+        title: 'Research Assistant',
         location: 'Provo, UT',
         accomplishments: [
             'Designed and imaged 45+ devices of 6 different operating systems',
