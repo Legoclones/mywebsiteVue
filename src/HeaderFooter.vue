@@ -41,8 +41,8 @@
     font-family: mullish, Geneva, sans-serif;
 }
 body {
-    background-color:black;
-    color:#EAECEE;
+    background-color:#7FB3D5;
+    color:black;
 }
 a {
     text-decoration:none;
@@ -56,26 +56,26 @@ a {
 .navbar li {
     list-style-type:none;
     padding:1em;
-    font-size:1.3em;
+    font-size:1.5em;
 }
 .navbar a {
     padding:0.9em;
     border-radius:15px;
-    color:#00CC00;
+    color:#FFFFFF;
 }
 .navbar a:hover {
-    background-color:#048500;
+    background-color:#F8F9F9;
     color:black;
 }
 .page-border {
-    border-top:2px solid #00CC00;
+    border-top:2px solid #FFFFFF;
 }
 .footer {
     text-align:center;
     margin:1.5em;
 }
 .body-content a, .footer a {
-    color:#0099FF;
+    color:#34495E;
 }
 .contact {
     justify-content:center;
@@ -98,9 +98,9 @@ a {
 }
 .page-title {
     font-size: 3em;
-    color: #E53935;
+    color: #2E4053;
     font-weight:bold;
-    border-bottom:2px solid #E53935;
+    border-bottom:2px solid #2E4053;
 }
 .page-title-div {
     margin:1em 0 2em 0;
