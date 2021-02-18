@@ -5,8 +5,8 @@ let data = [
         title: 'Missionary, Spanish-speaking',
         location: 'Houston, TX',
         details: [
-            'Taught in a one-on-one or small group setting each day',
             'Trained and directed the work of approximately 16 full-time missionaries in various leadership positions',
+            'Taught in a one-on-one or small group setting each day',
             'Set and reported progress on companionship and area goals weekly',
         ]
     }
