@@ -1,5 +1,16 @@
 let data = [
     {
+        orgComp: 'BYU Cybersecurity Student Association',
+        dates: 'April 2021 - Present',
+        title: 'Student CTF Instructor',
+        location: 'Provo, UT',
+        details: [
+            'Teach weekly training meetings on various skills used in cyber Capture the Flag competitions',
+            'Organize teams for monthly CTF competitions online',
+            'Compiled an extensive list of resources to help up-and-coming cybersecurity students learn independently',
+        ]
+    },
+    {
         orgComp: 'Church of Jesus Christ of Latter-day Saints',
         dates: 'Aug 2018 - May 2020',
         title: 'Missionary, Spanish-speaking',

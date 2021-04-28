@@ -1,6 +1,6 @@
 let data = {
     GPA: '3.99',
-    grade: 'freshman'
+    grade: 'sophomore'
 };
 
 export default data;

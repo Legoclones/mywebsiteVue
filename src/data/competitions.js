@@ -1,9 +1,15 @@
 let data = [
     {
-        name: 'BYU CSA\'s CTF 2020',
-        place: '3rd',
-        focuses: ['steganography', 'cryptography', 'web exploitation', 'networking'],
+        name: 'BYU CTF Winter 2021',
+        place: '2nd',
+        focuses: ['steganography', 'cryptography', 'web exploitation', 'reverse engineering'],
         link: 'https://www.byu.edu/'
+    },
+    {
+        name: 'NICCDC Winter 2021',
+        place: '3rd',
+        focuses: ['Linux and Windows hardening', 'Vyos routers', 'keeping services alive'],
+        link: 'https://niccdc.niatec.iri.isu.edu/'
     },
     {
         name: 'justCTF 2021',
@@ -16,12 +22,6 @@ let data = [
         place: 'top 11%',
         focuses: ['forensics', 'binary exploitation', 'web exploitation', 'cryptography', 'reconnaissance', 'reverse engineering'],
         link: 'https://metactf.com/'
-    },
-    {
-        name: 'Hivestorm 2020',
-        place: 'top 16%',
-        focuses: ['hardening organizational networks and devices', 'group policy settings', 'malware removal', 'basic forensics'],
-        link: 'http://www.hivestorm.org/'
     },
 ];
 

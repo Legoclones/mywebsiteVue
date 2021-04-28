@@ -45,9 +45,9 @@
                 
                 <p v-for="sclass in classes.completedClasses" :key="sclass">• {{sclass}}</p><br>
 
-                <h2 class="bullet-space">Current classes</h2>
+                <!--<h2 class="bullet-space">Current classes</h2>
                 
-                <p v-for="sclass2 in classes.currentClasses" :key="sclass2">• {{sclass2}}</p>
+                <p v-for="sclass2 in classes.currentClasses" :key="sclass2">• {{sclass2}}</p>-->
             </div>
 
         </div>

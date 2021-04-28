@@ -1,5 +1,10 @@
 let data = [
     {
+        name: 'CTF training repository',
+        language: 'GitHub',
+        link: 'https://github.com/JustinApplegate/ctf-training'
+    },
+    {
         name: 'Password cracking setup',
         language: 'John the Ripper',
         link: 'https://github.com/JustinApplegate/password-cracking'

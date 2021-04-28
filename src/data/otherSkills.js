@@ -1,3 +1,3 @@
-let data = ['English (native)', 'Spanish (fluent)', '80 words per minute'];
+let data = ['English (native)', 'Spanish (fluent)', '95 words per minute'];
 
 export default data;

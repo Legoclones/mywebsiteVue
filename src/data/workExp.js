@@ -5,9 +5,10 @@ let data = [
         title: 'Research Assistant',
         location: 'Provo, UT',
         accomplishments: [
-            'Designed and imaged 45+ devices of 6 different operating systems',
-            'Redesigned the network for a cybersecurity escape room with the 45+ devices',
-            'Wrote a 22-page document on the layout, setup, and administration of the escape room',
+            'Designed/imaged 50+ devices of 7 different operating systems for a cybersecurity escape room',
+            'Designed the network for the room with a DHCP server, firewall, FOG server, VMs, etc.',
+            'Wrote over 6000 lines of code in 5 different languages',
+            'Wrote a 42-page document on the layout, setup, and administration of the escape room',
         ]
     },
     {
@@ -18,17 +19,6 @@ let data = [
         accomplishments: [
             'Found and reported an average of 20 bugs in web features per month as tickets in Jira',
             'Tested and approved an average of 17 code updates per month',
-        ]
-    },
-    {
-        orgComp: 'Walmart',
-        dates: 'Jun 2018 - Aug 2018',
-        title: 'Cap II Team Stocker',
-        location: 'Chandler, AZ',
-        accomplishments: [
-            'Replenished shelves with new merchandise without supervision',
-            'Unloaded and organized incoming merchandise quickly and efficiently',
-            'Provided assistance to customers needing help',
         ]
     },
 ];
