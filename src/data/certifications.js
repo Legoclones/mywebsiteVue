@@ -1,5 +1,9 @@
 let data = [
     {
+        title: 'Junior Penetration Testing Certificate (eJPT)',
+        link: '/eJPTCertificate.pdf'
+    },
+    {
         title: 'ACTFL Spanish Speaking Certification (Advanced Low)',
         link: '/SpanishSpeakingCertification.pdf'
     },
