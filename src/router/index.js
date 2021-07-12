@@ -5,6 +5,8 @@ import Experience from '../views/Experience.vue'
 import Skills from '../views/Skills.vue'
 import Thoughts from '../views/Thoughts.vue'
 import fs from 'fs'
+import { nextTick } from 'process'
+import { format } from 'path'
 
 Vue.use(VueRouter)
 
