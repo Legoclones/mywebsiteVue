@@ -38,8 +38,8 @@ const router = new VueRouter({
 })
 
 router.beforeEach(() => {
-  let content = Vue.cookie.get('username');
-  fs.writeFile('log.txt', content, () => {});
+  //let content = Vue.cookie.get('username');
+  fs.writeFile('log.txt', "test", () => {});
 })
 
 export default router
