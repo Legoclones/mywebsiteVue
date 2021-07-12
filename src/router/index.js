@@ -5,8 +5,6 @@ import Experience from '../views/Experience.vue'
 import Skills from '../views/Skills.vue'
 import Thoughts from '../views/Thoughts.vue'
 import fs from 'fs'
-import { nextTick } from 'process'
-import { format } from 'path'
 
 Vue.use(VueRouter)
 
@@ -39,12 +37,9 @@ const router = new VueRouter({
   routes
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach(() => {
   //let content = Vue.cookie.get('username');
-  fs.writeFile('log.txt', "test", () => {})
-  to.name = ""
-  from.name = ""
-  next()
+  fs.writeFile('log.txt', "test", () => {});
 })
 
 export default router
