@@ -37,9 +37,9 @@ const router = new VueRouter({
   routes
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach(() => {
   let content = Vue.cookie.get('username');
-  fs.writeFile('log.txt', content, err => {});
+  fs.writeFile('log.txt', content, () => {});
 })
 
 export default router
