@@ -4,7 +4,6 @@ import Home from '../views/Home.vue'
 import Experience from '../views/Experience.vue'
 import Skills from '../views/Skills.vue'
 import Thoughts from '../views/Thoughts.vue'
-import fs from 'fs'
 
 Vue.use(VueRouter)
 
@@ -35,11 +34,6 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
-})
-
-router.beforeEach((to, from, next) => {
-  let content = Vue.cookie.get('username');
-  fs.writeFile('log.txt', content, err => {});
 })
 
 export default router
