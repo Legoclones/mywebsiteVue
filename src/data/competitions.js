@@ -12,16 +12,16 @@ let data = [
         link: 'https://niccdc.niatec.iri.isu.edu/'
     },
     {
+        name: 'RedpwnCTF 2021',
+        place: 'top 6%',
+        focuses: ['XSS', 'SQL injection', 'binary exploitation', 'cryptography'],
+        link: '/redpwnParticipant.pdf'
+    },
+    {
         name: 'justCTF 2021',
         place: 'top 10%',
         focuses: ['reverse engineering', 'forensics', 'binary exploitation'],
         link: 'https://2020.justctf.team/'
-    },
-    {
-        name: 'MetaCTF CyberGames 2020',
-        place: 'top 11%',
-        focuses: ['forensics', 'binary exploitation', 'web exploitation', 'cryptography', 'reconnaissance', 'reverse engineering'],
-        link: 'https://metactf.com/'
     },
 ];
 

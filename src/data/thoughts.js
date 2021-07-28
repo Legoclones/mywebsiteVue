@@ -1,7 +1,7 @@
 let data = [
     {
         question: 'What do you consider to be your greatest professional achievement?',
-        answer: 'My greatest professional achievement (up to this point) is ranking 3rd place in a Capture the Flag competition here at BYU. I had worked for a couple of months prior to obtain skills and gain practice with other CTF\'s so I would be properly prepared. When it started, I had my whole day cleared and starting working from that morning. I was very happy with how I did, and I learned many things along the way! Achieving 3rd place is also what led to me being offered a position working at BYU\'s Cybersecurity Research Lab.'
+        answer: 'My greatest professional achievement (up to this point) is getting in the top 6% in Redpwn\'s Capture the Flag competition in July of 2021. Ian Cook and myself worked for months up to the competition teaching other cybersecurity students the skills we\'ve gained from previous CTFs. We created a GitHub repository with all our lessons plans for each week\'s meetings (you can find it on my GitHub). Redpwn\'s CTF was a 3-day competition, which we spent practically every waking hour grinding on; my focus was web exploitation. We were very happily surprised to place 7th out of 135 teams, so the top 6% in the College Division. I believe that this is only the beginning for BYU\'s CTF group.'
     },
     {
         question: 'What are your greatest strengths?',
@@ -13,15 +13,11 @@ let data = [
     },
     {
         question: 'Describe your dream job.',
-        answer: 'My dream job is to work in a cybersecurity-related position where I can help protect other people from various malicious actors. I think the most important part of my dream job is the environment - I idealize working with others who know and respect me; they know where my boundaries are, but can push me to be better. I would love to collaborate with coworkers who also believe in what they\'re doing and want to help others.'
-    },
-    {
-        question: 'What\'s the toughest decision you\'ve had to make in the last 6 months?',
-        answer: 'I had a roommate who I struggled to live with in my dorm. I really liked the guy, but there were some things he did that I couldn\'t handle, and even after talking about them together respectfully, he would eventually start again. I didn\'t want to hurt his feelings, but I knew that I needed a change. After talking with some close family members and friends, I decided that it would be in our best interest to change apartments. I would do better having a roommate who didn\'t have those habits, and he would do better if he had a roommate who was okay with them. It ended up being a peaceful resolution to what could have easily become a bitter battle.'
+        answer: 'My dream job is to work in a cybersecurity-related position where I can help protect other people from various malicious actors. I think the most important part of my dream job is the environment - I idealize working with others who know and respect me; they know where my boundaries are, but can push me to be better. I would love to collaborate with coworkers who also believe in what they\'re doing and want to serve others.'
     },
     {
         question: 'What do you like to do outside of work and school?',
-        answer: 'I spend a lot of my time outside of work and school learning new technical skills, such as password cracking, using ciphers, or studying for the CompTIA Security+ certification (you can see a list of my personal projects on the Skills page). When I\'m not doing that, I\'m spending time hanging out with family and friends!'
+        answer: 'I spend a lot of my time outside of work and school learning new technical skills, such as web exploitation methods, password cracking, and studying for the CompTIA Security+ certification. I also play soccer once or twice each week. When I\'m not doing those, I\'m spending time hanging out with family and friends!'
     },
 ];
 
