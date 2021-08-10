@@ -19,6 +19,9 @@ export default {
     thoughts(){
       return this.$root.$data.thoughts;
     }
+  },
+  created () {
+    document.title = "Justin Applegate - Tableau";
   }
 }
 </script>
