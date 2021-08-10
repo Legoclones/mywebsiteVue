@@ -1,11 +1,13 @@
 <template>
   <div id="app">
+    <!--Justin Applegate-->
 
     <ul class="navbar">
         <li><a href="/">Home</a></li>
         <li><a href="/experience">Experience</a></li>
         <li><a href="/skills">Skills/Projects</a></li>
         <li><a href="/my-thoughts">My Thoughts</a></li>
+        <li><a href="/tableau">Tableau</a></li>
     </ul>
     
     <div class="page-border"></div>

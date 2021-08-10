@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Experience from '../views/Experience.vue'
 import Skills from '../views/Skills.vue'
 import Thoughts from '../views/Thoughts.vue'
+import Tableau from '../views/Tableau.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/my-thoughts',
     name: 'Thoughts',
     component: Thoughts
+  },
+  {
+    path: '/tableau',
+    name: 'Tableau',
+    component: Tableau
   },
 ]
 

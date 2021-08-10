@@ -3,7 +3,7 @@
     <div class="content-box">
       <div class="page-title-div"><span class="page-title">About Me</span></div>
 
-      <img class="profile-photo" src="@/assets/ProfilePhoto.jpg">
+      <img class="profile-photo" src="@/assets/ProfilePhoto.jpg" alt="Profile Photo">
       <p>I am a full-time {{ grade }} pursuing a Bachelor’s in Cybersecurity and a minor in Computer Science
         from Brigham Young University in Provo, Utah. I'm originally from Chandler, Arizona, where I've 
         lived for almost all of my life.</p>
@@ -19,7 +19,7 @@
 
       <div class="school">
         <h2>Brigham Young University, <em>Provo, UT</em></h2>
-        <img class="school-photo" src="@/assets/BYUCampus.jpg">
+        <img class="school-photo" src="@/assets/BYUCampus.jpg" alt="BYU Campus">
         <p id="major"><em>Bachelor of Science, Cybersecurity</em></p>
         <p><em>Minor in Computer Science</em></p>
           
@@ -30,7 +30,7 @@
 
       <div class="school">
         <h2>Chandler High School, <em>Chandler, AZ</em></h2>
-        <img class="school-photo" src="@/assets/ChandlerHighSchool.jpg">
+        <img class="school-photo" src="@/assets/ChandlerHighSchool.jpg" alt="Chandler High School">
         <p><em>High School Diploma</em></p>
             
         <p class="bullet">• June 2014 - May 2018</p>
