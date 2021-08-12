@@ -48,4 +48,7 @@ p, h2 {
 .answer {
     margin-bottom:2em;
 }
+ol {
+  padding:10px;
+}
 </style>
