@@ -69,9 +69,6 @@ export default {
     classes(){
       return this.$root.$data.classes;
     }
-  },
-  created () {
-    document.title = "Justin Applegate - Experience";
   }
 }
 </script>

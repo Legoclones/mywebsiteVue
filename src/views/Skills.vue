@@ -61,9 +61,6 @@ export default {
     certifications(){
       return this.$root.$data.certifications;
     }
-  },
-  created () {
-    document.title = "Justin Applegate - Skills";
   }
 }
 </script>
