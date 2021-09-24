@@ -1,14 +1,5 @@
 <template>
     <div class="body-content">
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TPMlZxRRaBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <ol>
-          <li>Go to <a href="https://www.tableau.com/products/desktop/download">www.tableau.com</a></li>
-          <li>Enter your email</li>
-          <li>Run the installer that downloaded</li>
-        </ol>
-
         <div class="content-box">
             <div class="page-title-div"><span class="page-title">My Thoughts</span></div>
             
