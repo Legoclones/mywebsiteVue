@@ -49,6 +49,6 @@ p, h2 {
     margin-bottom:2em;
 }
 ol {
-  padding:30px;
+  padding:10px;
 }
 </style>
