@@ -23,7 +23,7 @@
         <p id="major"><em>Bachelor of Science, Cybersecurity</em></p>
         <p><em>Minor in Computer Science</em></p>
           
-        <p class="bullet">• June 2020 - Present</p>
+        <p class="bullet">• April 2024</p>
         <p class="bullet">• GPA - {{ GPA }}</p>
         <p class="bullet">• Academic, Full-Tuition Scholarship</p>
       </div>

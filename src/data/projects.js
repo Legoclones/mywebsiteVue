@@ -2,7 +2,7 @@ let data = [
     {
         name: 'CTF training repository',
         language: 'GitHub',
-        link: 'https://github.com/JustinApplegate/ctf-training'
+        link: 'https://github.com/BYU-CTF-Group/ctf-training'
     },
     {
         name: 'Autopsy Keyword Results Refiner',

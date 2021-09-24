@@ -2,12 +2,12 @@ let data = [
     {
         orgComp: 'BYU Cybersecurity Student Association',
         dates: 'April 2021 - Present',
-        title: 'Student CTF Instructor',
+        title: 'Head of CTF Group and Digital Forensics',
         location: 'Provo, UT',
         details: [
-            'Teach weekly training meetings on various skills used in cyber Capture the Flag competitions',
-            'Organize teams for monthly CTF competitions online',
-            'Compiled an extensive list of resources to help up-and-coming cybersecurity students learn independently',
+            'Lead a competitive penetration testing team in bi-monthly training meetings as captain',
+            'Organized teams for 8 CTF competitions where we consistently placed in the top 15%',
+            'Developed and teach 10+ lessons focused on teaching beginners pertinent CTF skills',
         ]
     },
     {

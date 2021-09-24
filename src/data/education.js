@@ -1,5 +1,5 @@
 let data = {
-    GPA: '3.99',
+    GPA: '3.96',
     grade: 'sophomore'
 };
 
